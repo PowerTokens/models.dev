@@ -1,9 +1,12 @@
-# Pricing: https://powertokens.ai/pricing (USD per 1M tokens, accessed 2026-10-01)
-# Request fields: https://docs.powertokens.ai/en/zmodelChat/byteplus/deepseek-v3-2-251201.md (accessed 2026-10-01)
+# Pricing: https://powertokens.ai/pricing (USD per 1M tokens, re-checked 2026-10-08)
+# Request fields: https://docs.powertokens.ai/en/zmodelChat/byteplus/deepseek-v3-2-251201.md (re-checked 2026-10-08)
 # Endpoint matrix: https://docs.powertokens.ai/en/ecosystem-tools/text-model-protocols.md
 # Served via BytePlus ModelArk (model ID deepseek-v3-2-251201).
 # Toggle: thinking.type = enabled|disabled
 # Effort: reasoning_effort = minimal|low|medium|high
+# Host OpenAPI enum for this model is only those four effort values.
+# The docs example sends thinking.type=enabled together with reasoning_effort.
+# none is not in the documented enum, and minimal is.
 base_model = "deepseek/deepseek-v3.2"
 
 [[reasoning_options]]

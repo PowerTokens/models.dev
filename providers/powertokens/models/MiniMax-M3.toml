@@ -1,4 +1,7 @@
-# Pricing: https://powertokens.ai/pricing (USD per 1M tokens, accessed 2026-10-01)
+# Pricing: https://powertokens.ai/pricing (USD per 1M tokens, re-checked 2026-10-08)
+# Same numbers from POST https://powertokens.ai/api/model/pricing on 2026-10-08:
+# 0.6 input / 2.4 output / 0.12 cache read through 512k tokens,
+# then 1.2 / 4.8 / 0.24. These are the PowerTokens prices for this model id.
 # Request fields: https://docs.powertokens.ai/en/zmodelChat/minimax/miniMax-M3.md (accessed 2026-10-01)
 # Endpoint matrix: https://docs.powertokens.ai/en/ecosystem-tools/text-model-protocols.md
 # Toggle: thinking.type = adaptive|disabled (omitted = on). PowerTokens relays
